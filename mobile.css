@@ -1,0 +1,303 @@
+ 
+ /* Navbar  */
+
+ body {
+     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     background: url(./img/pexels-aleksandar-pasaric-1694000.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     color: wheat;
+     /* background-color: red; */
+
+ }
+ 
+.container {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    /* margin: auto; */
+}
+
+#nav {
+    display: none;
+    max-width: 0;
+    border-bottom: none;
+    box-shadow: none;
+
+}
+
+ .navbar {
+    display: none;
+    width: 0 ;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid purple;
+ }  
+
+ .navbar-logo {
+    margin-left: -5rem;
+ }
+
+ .navbar-links {
+    margin-left: 0;
+ }
+
+ .navbar-links li {
+    padding: 0 0.5rem;
+    padding: 2rem;
+    text-align: start;
+ }
+
+ .navbar-links li a {
+    font-size: 12px;
+    padding: 0.25rem;
+ }
+
+ .navbar-links li:first-child{
+    display: none;
+ }
+
+ /* SECTION SKILL */
+  .skill-set {
+    width: 70v;
+  }
+
+  .tools-3 {
+    margin: 0;
+  }
+
+  .child-1,.child-2,.child-3,.child-4,.child-5 {
+    margin-left: 0;
+  }
+
+  #resume {
+    margin-left: 0;
+  }
+
+
+
+
+
+
+
+
+
+ .navbar-logo {
+    text-align: center;
+    font-size:1.5rem;
+ }
+/* Showcase-1 */
+#showcase-1 {
+  border-bottom: 2px solid purple;
+}
+  .showcase-main{
+    margin-top: 5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    
+  }
+.showcase-content {
+    align-self: center;
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+    width: 80vw;
+
+}
+.showcase-content p {
+  
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.showcase-img {
+    height: 30vh;
+    width: 60vw;
+    align-self: center;
+    transform: translateY(-5    00px);
+    animation: image 1.5s forwards ease-in;
+}
+@keyframes image {
+    to {
+        transform: translateY(0);
+    }
+}
+
+ /* Showcase content Animation */
+ .showcase-content {
+     transform: translateX(-600px);
+     animation: content 1s forwards ease-in;
+ }
+
+ @keyframes content {
+     to {
+         transform: translateX(0);
+     }
+ }
+
+ /* SHOWCASE- 2 */
+
+ #showcase-2 {
+    border-bottom: 2px solid purple;
+  
+ }
+     
+  .showcase-main-2 {
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    margin-top:-4rem;
+    margin-bottom: 2rem;
+  }
+
+  
+  .showcase-img-2 {
+        display: none;
+  }
+
+  .showcase-content-2{
+    width: 100%;
+  }
+
+  .showcase-content-2 h1 {
+    text-align: center;
+    border: 1px none transparent;
+    /* border-bottom: 1px solid purple; */
+    margin: 0;
+    /* transition: border-bottom 0.8s ease-in-out; */
+    font-size: 1.5rem;
+  }
+  
+  .topic p{
+    font-family: cursive;
+    font-size: 1rem;
+  }
+
+/* SHOWCASE-3 */
+ #showcase-3 {
+    border-bottom: 2px solid purple;
+ }
+
+  .showcase-main-3 {
+       display: flex;
+       flex-direction: column;
+       margin: 1rem;
+       /* padding: 5rem; */
+       padding-top: 2rem;
+     }
+
+         .showcase-img-3 {
+           display: block;
+           background-image: url(./img/IMG-20230107-WA0009.jpg);
+           background-repeat: no-repeat;
+           background-position: center;
+           background-size: cover;
+           height: 30vh;
+           width: 60vw;
+           border-radius: 50%;
+           align-self: center;
+           border: 3px solid purple;
+           margin-top: 2rem;
+           margin-left: 3rem;
+         }
+
+         .showcase-content-3 h1 {
+      text-align: center;
+      border: 1px none transparent;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      margin: 0;
+         }
+         
+   div.showcase-content-3 p {
+   font-family: cursive;
+    font-size: 1rem;
+   }
+
+   .showcase-content-3 ul li {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: purple;
+    font-weight: bold;
+   }
+
+/* SKILL */
+   .skill-set h2 {
+    font-size: 1.5rem;
+   }
+
+  .tools-1 {
+    max-width: 100vw;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+         }
+
+         .tools-item {
+          margin: 0.4rem;
+         }
+
+         .tools-2{
+          margin-top: -5rem;
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          padding-top:5rem;
+          margin-left: -1rem;
+        }
+
+        .child-1 {
+          grid-column: 1 / span 2;
+          width: 24rem;
+          margin-bottom: 8px;
+        }
+
+        .child-2{
+          margin-left: -0.2rem;
+        }
+        .child-3{
+          margin-left: 0;
+        }
+
+            .child-4{
+          margin-left: 0.4rem;
+        }
+        .child-5{
+          margin-left: 0;
+        }
+
+          .tools-3{
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+           margin-left: -1.6rem;           
+          }
+
+          /* RESUME */
+            #resume {
+              margin-left: 7rem;
+              margin-top: 1rem;
+            }
+
+            .resume-file {
+              background: purple;
+              height: 3rem;
+              width: 8rem;
+              text-align: center;
+              padding-top: 10px;
+            }
+
+               /*FOOTER*/
+               .find-text h1 {
+                font-size: 1.5rem;
+               }
+
+               footer {
+                margin-top: -2rem;
+               }
+
+          
+            
+
+
+
+
